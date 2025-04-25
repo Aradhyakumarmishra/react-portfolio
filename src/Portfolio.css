@@ -1,0 +1,285 @@
+/* .portfolio-container {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    font-family: sans-serif;
+    padding: 24px;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.portfolio-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.portfolio-header p {
+    font-size: 1.125rem;
+    margin-top: 8px;
+}
+
+.portfolio-projects {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.portfolio-projects h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.project-tech {
+    font-size: 0.875rem;
+    margin-top: 8px;
+    color: #6b7280;
+}
+
+.project-links {
+    margin-top: 12px;
+}
+
+.project-links a {
+    color: #2563eb;
+    text-decoration: underline;
+    margin-right: 16px;
+}
+
+.portfolio-footer {
+    text-align: center;
+    margin-top: 64px;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+
+.portfolio-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #2c3e50;
+}
+
+.portfolio-subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+.section-heading {
+    font-size: 1.75rem;
+    margin-bottom: 24px;
+    color: #1a202c;
+    border-bottom: 2px solid #4a90e2;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin-bottom: 8px;
+}
+
+.project-type {
+    font-size: 0.95rem;
+    color: #6b7280;
+    font-style: italic;
+    margin-bottom: 10px;
+} */
+
+
+
+/* Layout Base */
+
+
+/* General body and HTML settings */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+/* Profile Wrapper */
+.profile-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Sidebar */
+.profile-sidebar {
+    flex: 1;
+    max-width: 300px;
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 0 20px 20px 0;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    color: #2c3e50;
+}
+
+.role {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 6px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 0.9rem;
+}
+
+.contact-info p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+/* Download Resume Button */
+.download-resume {
+    margin-top: 1rem;
+    background-color: #ff7e5f;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.download-resume:hover {
+    background-color: #eb4d4b;
+}
+
+/* Main Content */
+.profile-main {
+    flex: 3;
+    padding: 3rem;
+}
+
+/* About Section */
+.about-section h2,
+.projects-section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #3498db;
+    display: inline-block;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+/* Projects Section */
+.project-list {
+    display: grid;
+    gap: 2rem;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    /* Colorful Gradient */
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    /* Change gradient on hover */
+}
+
+.project-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    /* White text for contrast */
+}
+
+.project-tech {
+    font-size: 0.9rem;
+    color: #fff;
+    /* White text */
+    margin-top: 0.4rem;
+}
+
+.project-type {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #fff;
+    /* White text */
+    margin: 0.5rem 0 1rem;
+}
+
+.project-card ul {
+    padding-left: 1.2rem;
+}
+
+.project-card ul li {
+    margin-bottom: 0.6rem;
+    color: #fff;
+    /* White text */
+    font-size: 0.95rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .profile-wrapper {
+        flex-direction: column;
+    }
+
+    .profile-sidebar {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .profile-main {
+        padding: 1.5rem;
+    }
+}
