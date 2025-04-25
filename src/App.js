@@ -9,8 +9,6 @@ export default function Portfolio() {
         <h1 className="name">Aradhya Kumar Mishra</h1>
         <p className="role">React.js Developer</p>
         <div className="social-links">
-          <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
         </div>
         <div className="contact-info">
           <p><strong>Phone:</strong> +91-6264361891</p>
