@@ -1,22 +1,73 @@
 import React from "react";
 import "./Portfolio.css";
-
+import { FaLinkedin, FaGithub, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 export default function Portfolio() {
   return (
     <div className="profile-wrapper">
-      <aside className="profile-sidebar">
-        <div className="profile-image"></div>
+      {/* <aside className="profile-sidebar">
+        <div className="profile-image"><img src="aradhya.jpg"/></div>
         <h1 className="name">Aradhya Kumar Mishra</h1>
         <p className="role">React.js Developer</p>
         <div className="social-links">
+          <a
+            href="https://www.linkedin.com/in/aradhya-kumar-mishra-006288251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link"
+          >
+    Linkedin
+          </a>
+          <a
+            href="https://github.com/AradhyaKumarMishra"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link"
+          >
+         Github
+          </a>
         </div>
+
         <div className="contact-info">
           <p><strong>Phone:</strong> +91-6264361891</p>
           <p><strong>Email:</strong> aradhyakumargautam@gmail.com</p>
           <p><strong>Location:</strong> Indore, India</p>
         </div>
         <button className="download-resume">Download Resume</button>
-      </aside>
+      </aside> */}
+
+        <aside className="profile-sidebar">
+          <div className="profile-image">
+            <img src="th.jpg" alt="Aradhya Kumar Mishra" />
+          </div>
+
+          <h1 className="name">Aradhya Kumar Mishra</h1>
+          <p className="tagline">Crafting Modern Web Experiences</p>
+          <p className="role">React.js Developer</p>
+
+          <div className="social-links">
+            <a href="https://www.linkedin.com/in/aradhya-kumar-mishra-006288251" target="_blank" rel="noopener noreferrer" className="social-link">
+              <FaLinkedin size={24} />
+            </a>
+            <a href="https://github.com/AradhyaKumarMishra" target="_blank" rel="noopener noreferrer" className="social-link">
+              <FaGithub size={24} />
+            </a>
+          </div>
+
+          <div className="contact-info">
+            <p><FaPhoneAlt className="contact-icon" /> +91-6264361891</p>
+            <p><FaEnvelope className="contact-icon" /> aradhyakumargautam@gmail.com</p>
+            <p><FaMapMarkerAlt className="contact-icon" /> Indore, India</p>
+          </div>
+
+        <button className="download-resume">  
+          <a href="/AKMCV.pdf" download="AKMCV.pdf">
+          Download Resume
+        </a></button>
+
+          <div className="freelance-available">
+            <p>🚀 Available for Freelance Projects!</p>
+          </div>
+        </aside>
 
       <main className="profile-main">
         <section className="about-section">
