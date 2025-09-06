@@ -2,38 +2,17 @@ import React from "react";
 import "./Portfolio.css";
 import { FaLinkedin, FaGithub, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 export default function Portfolio() {
-  return (
-    <div className="profile-wrapper">
-      {/* <aside className="profile-sidebar">
-        <div className="profile-image"><img src="aradhya.jpg"/></div>
-        <h1 className="name">Aradhya Kumar Mishra</h1>
-        <p className="role">React.js Developer</p>
-        <div className="social-links">
-          <a
-            href="https://www.linkedin.com/in/aradhya-kumar-mishra-006288251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-link"
-          >
-    Linkedin
-          </a>
-          <a
-            href="https://github.com/AradhyaKumarMishra"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-link"
-          >
-         Github
-          </a>
-        </div>
 
-        <div className="contact-info">
-          <p><strong>Phone:</strong> +91-6264361891</p>
-          <p><strong>Email:</strong> aradhyakumargautam@gmail.com</p>
-          <p><strong>Location:</strong> Indore, India</p>
-        </div>
-        <button className="download-resume">Download Resume</button>
-      </aside> */}
+  // https://coruscating-belekoy-f864df.netlify.app/
+  return (
+    <div className="profile-wrapper" style={{
+      minHeight: "100vh",
+      backgroundImage: "url('/background.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+    }}>
+   
 
         <aside className="profile-sidebar">
           <div className="profile-image">
@@ -72,7 +51,7 @@ export default function Portfolio() {
       <main className="profile-main">
         <section className="about-section">
           <h2>ABOUT ME</h2>
-          <p>Hello! I'm Aradhya, a passionate React.js Developer with over 2 years of experience in creating responsive and optimized web applications. My focus is on writing clean code, solving problems, and delivering elegant UI experiences.</p>
+          <p>Hello! I'm Aradhya, a passionate React.js Developer with over 2.5 years of experience in creating responsive and optimized web applications. My focus is on writing clean code, solving problems, and delivering elegant UI experiences.</p>
         </section>
 
         <section className="projects-section">
@@ -80,7 +59,7 @@ export default function Portfolio() {
           <div className="project-list">
             <div className="project-card">
               <h3>Do It Center (E-commerce Platform)</h3>
-              <p><strong>Tech Stack:</strong> Next.js, React.js, Redux, REST API, Material-UI, Tailwind CSS</p>
+              <p><strong>Tech Stack:</strong> Next.js, Redux, REST API, Material-UI, Tailwind CSS</p>
               <p><strong>Related to:</strong>This project is Related on E-commerce there are multiple types of product avilable in this website and there are two types of user on here like Guest and Member</p>
               <ul>
                 <li>Developed a high-performance e-commerce web app with seamless functionality for both guest and member users.</li>
