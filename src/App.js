@@ -51,7 +51,7 @@ export default function Portfolio() {
       <main className="profile-main">
         <section className="about-section">
           <h2>ABOUT ME</h2>
-          <p>Hello! I'm Aradhya, a passionate React.js Developer with over 2.5 years of experience in creating responsive and optimized web applications. My focus is on writing clean code, solving problems, and delivering elegant UI experiences.</p>
+          <p>Hello! I'm Aradhya, a passionate React.js Developer with over 2.8 years of experience in creating responsive and optimized web applications. My focus is on writing clean code, solving problems, and delivering elegant UI experiences.</p>
         </section>
 
         <section className="projects-section">
