@@ -142,8 +142,6 @@ import {
   FaPhoneAlt,
   FaEnvelope,
   FaMapMarkerAlt,
-  FaShieldAlt,
-  FaChartBar,
   FaShoppingCart,
   FaDumbbell,
   FaBook,
